@@ -21,6 +21,6 @@ Respecto a la tabla de la página, he utilizado un selector de CSS3 que permite 
     background-color: #f78e22;
 }
 ```
-La validación del documento se puede verificar en [validator.w3.org](https://validator.w3.org/nu/?doc=https://rawgit.com/v4nnig/lmsgi_tema02_html/master/index.html) y el documento puede verse directamente desde [rawgit](https://rawgit.com/v4nnig/lmsgi_tema02_html/master/index.html).
+La validación del CSS en [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frawgit.com%2Fv4nnig%2Flmsgi_tema02_css%2Fmaster%2Findex.html&profile=css3&usermedium=all&warning=2&vextwarning=&lang=es#css) y el HTML en []()y el documento puede verse directamente desde [rawgit](https://rawgit.com/v4nnig/lmsgi_tema02_css/master/index.html).
 
 
