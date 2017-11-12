@@ -1,66 +1,139 @@
 palette {
-color: #377e47;
-color: #5ae88B;
-color: #6cffb2;
-color: #62e8b3;
-color: #6cffd8;
-color: #bbffcf;
-}
-palette2 {
 color: #89d5e0;
 color: #c1ddcc;
 color: #e9e6bd;
 color: #f78e22;
 color: #fc7000;
 }
-/*
-* {
+
+/* * {
     margin: 0;
     padding: 0;
-}
-*/
+} */
+
+
+/************************ estilos globales ************************/
+
 body {
     margin: 0 5% 0px 5%;
     background-color: #ffffff;
     color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: #bbffcf;
+figcaption {
+    font-size: small;
+}
+
+h1 {
+    background-color: #ffffff;
+}
+
+h2 {
+    background-color: #ffffff;
+    font-weight: 200;
+    font-stretch: condensed;
+    line-height: 50px;
+    margin: 0px;
+    text-align: left;
+}
+
+a {
     color: #000000;
-    /* text-align: center; */
+    background-color: #89d5e0;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #fc7000;
+}
+
+/************************ cabecera de la página ************************/
+
+header {
+    background-color: #e9e6bd;
+    color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* display: table; */
 }
-
+ 
 header figure {
-    background-color: #f75151;
-}
+    float: left;
+    margin: 5px;
+    padding: 5px;
+} 
+
 header img {
     height: 300px;
 }
 
 header h1 {
-    background-color: blue;
+    padding: 5px;
+    margin: 5px;
 }
+/* 
+header h1 {
+    float: left;
+} */
+
+/************************ menú de navegación  ************************/
 
 nav {
-    background-color: #bbffcf;
+    background-color: #e9e6bd;
+    text-align: center;
+    line-height: 100px;
 }
 
 .menu {
-    display: inline-block;
+    display: inline-block; 
 }
 
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 20px 10px 20px 10px;
+}
+
+.menu a:hover {
+    background-color: #fc7000;
+}
+
+.menu a:active {
+    background-color: #c1ddcc;
+}
+
+/************************ contenido de la página ************************/
+
 main {
-    background-color: #bbffcf;
+    background-color: #e9e6bd;
+    padding: 5px;
 }
 
 #primeraparte {
 
 }
 
+/************************ pie de página ************************/
+
+footer * {
+    margin: 0px;
+    padding: 0px;
+}
+
 footer {
-    background-color: #bbffcf;
+    text-align: center;
+    background-color: #c1ddcc;
+    line-height: 50px;
+}
+
+footer a {
+    background-color: #e9e6bd;   
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
 }
