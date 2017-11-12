@@ -33,9 +33,10 @@ h2 {
     background-color: #ffffff;
     font-weight: 200;
     font-stretch: condensed;
-    line-height: 50px;
-    margin: 0px;
-    text-align: left;
+    line-height: 2em;
+    margin: 0;
+    padding: 0 1em;
+    /* text-align: left; */
 }
 
 a {
@@ -69,17 +70,14 @@ header figure {
 } 
 
 header img {
-    height: 300px;
+    height: 15em;
+    /* height: 300px; */
 }
 
 header h1 {
     padding: 5px;
     margin: 5px;
 }
-/* 
-header h1 {
-    float: left;
-} */
 
 /************************ menú de navegación  ************************/
 
@@ -112,11 +110,37 @@ nav {
 
 main {
     background-color: #e9e6bd;
-    padding: 5px;
+    padding: 5px 30px;
+    /* display: table; */
 }
 
-#primeraparte {
+#primeraparte figure {
+    float: right;
+    text-align: center;
+    margin: .2em;
+    padding: .2em;
+}
 
+#segundaparte li {
+    list-style: square;
+}
+
+#terceraparte a {
+    word-wrap: break-word;
+}
+
+#terceraparte table {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#terceraparte th:nth-child(1) {
+    background-color: #c1ddcc;
+}
+
+#terceraparte th:nth-child(2) {
+    background-color: #f78e22;
 }
 
 /************************ pie de página ************************/
