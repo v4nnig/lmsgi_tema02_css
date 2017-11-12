@@ -34,10 +34,12 @@ figcaption {
 
 h1 {
     background-color: #ffffff;
+    color: #000000;
 }
 
 h2 {
     background-color: #ffffff;
+    color: #000000;
     font-weight: 200;
     font-stretch: condensed;
     line-height: 2em;
@@ -89,6 +91,7 @@ header h1 {
 /************************ menú de navegación  ************************/
 
 nav {
+    color: #ffffff;
     background-color: #e9e6bd;
     text-align: center;
     line-height: 100px;
@@ -106,16 +109,19 @@ nav {
 }
 
 .menu a:hover {
+    color: #ffffff;
     background-color: #fc7000;
 }
 
 .menu a:active {
+    color: #ffffff;
     background-color: #c1ddcc;
 }
 
 /************************ contenido de la página ************************/
 
 main {
+    color: #000000;
     background-color: #e9e6bd;
     padding: 5px 30px;
     /* display: table; */
@@ -143,10 +149,12 @@ main {
 }
 
 #terceraparte th:nth-child(1) {
+    color: #000000;
     background-color: #c1ddcc;
 }
 
 #terceraparte th:nth-child(2) {
+    color: #000000;
     background-color: #f78e22;
 }
 
@@ -158,12 +166,14 @@ footer * {
 }
 
 footer {
+    color: #000000;
     text-align: center;
     background-color: #c1ddcc;
     line-height: 50px;
 }
 
 footer a {
+    color: #000000;
     background-color: #e9e6bd;   
     padding: 5px 5px 5px 5px;
     text-decoration: none;
