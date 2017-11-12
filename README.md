@@ -1,4 +1,4 @@
-#  Introduccion a HTML LMSGI-02
+#  Introduccion a CSS LMSGI-02
 
 Para realizar este trabajo, he recopilado información de distintas fuentes en internet, cuyos enlaces se incluyen como enlaces.
 

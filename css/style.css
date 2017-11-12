@@ -1,0 +1,66 @@
+palette {
+color: #377e47;
+color: #5ae88B;
+color: #6cffb2;
+color: #62e8b3;
+color: #6cffd8;
+color: #bbffcf;
+}
+palette2 {
+color: #89d5e0;
+color: #c1ddcc;
+color: #e9e6bd;
+color: #f78e22;
+color: #fc7000;
+}
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+body {
+    margin: 0 5% 0px 5%;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #bbffcf;
+    color: #000000;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header figure {
+    background-color: #f75151;
+}
+header img {
+    height: 300px;
+}
+
+header h1 {
+    background-color: blue;
+}
+
+nav {
+    background-color: #bbffcf;
+}
+
+.menu {
+    display: inline-block;
+}
+
+main {
+    background-color: #bbffcf;
+}
+
+#primeraparte {
+
+}
+
+footer {
+    background-color: #bbffcf;
+}
